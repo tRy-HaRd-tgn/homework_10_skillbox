@@ -1,0 +1,41 @@
+
+.swiper
+{
+    height: 620px;
+    width: auto;
+}
+
+.img1
+{
+    background-image: url('/IMG/low-angle-photo-of-balconies-2462015 1.png');
+    background-size: cover;
+    border-radius: 30px;
+}
+.img2
+{
+    background-image: url('/IMG/hero-pic-1920-2.png');
+    background-size: cover;
+    border-radius: 30px;
+}
+.img3
+{
+    background-image: url('/IMG/hero-pic-1920-3.png');
+    background-size: cover;
+    border-radius: 30px;
+}
+.swiper-button-next:after, .swiper-button-prev:after
+{
+    display: none;
+}
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal
+{
+    display: none;
+}
+.swiper-pagination-bullet
+{
+    
+        width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px)) !important;
+        height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,15px)) !important;
+        background: rgb(202, 202, 202) !important;
+        border: 1px solid black;
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home_work 9</title>
+        <link rel="stylesheet" href="/CSS/reset.css">
+        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="stylesheet" href="/CSS/swiper.css">
+
+        <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/css/styles.css">
+        <!-- сайт для настройки - https://swiperjs.com/get-started -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <!-- сайт для настройки - https://jqueryui.com/accordion/ -->
+        <script>
+            $( function() {
+            $( "#accordion" ).accordion();
+            } );
+        </script>
+    </head>
+    <header>
+        <section class="header">
+            <div class="header__container">
+                <details class="burger">
+                    <summary>-</summary>
+                    <div class="burger-div">
+                        <div class="X"><img src="/IMG/X.svg" alt=""></div>
+                        <div class="burger-flex">
+                            <a class="burger-a" href=""><p class="burger-a-p">О нас     </p></a>
+                            <a class="burger-a" href=""><p class="burger-a-p">Проекты   </p></a>
+                            <a class="burger-a" href=""><p class="burger-a-p">Этапы     </p></a>
+                            <a class="burger-a" href=""><p class="burger-a-p">Отзывы    </p></a>
+                            <a class="burger-a" href=""><p class="burger-a-p">Контакты  </p></a>
+                        </div>
+                    </div>
+                </details>
+
+                <img class="header__logo-logo" src="/IMG/Logo.png" alt="">
+                
+                <ul class="header__list">
+                    
+                    <li class="header__list_item">
+                        <a class="header__list_item-a first"  href="">О нас </a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__list_item-a" href="">Проекты</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__list_item-a" href="">Этапы</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__list_item-a" href="">Отзывы</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a class="header__list_item-a" href="">Контакты</a>
+                    </li>
+                </ul>
+                <a class="header__find" href="">
+                    <svg class="header__find-svg" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <rect width="23.999964" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+                        <rect x="18.606445" y="17.376221" width="7.561260" height="1.890315" transform="rotate(44.4925 18.606445 17.376221)" fill="#000000" fill-opacity="1.000000"/>
+                        <ellipse cx="10.965332" cy="10.772705" rx="9.965152" ry="9.772614" stroke="#000000" stroke-opacity="1.000000" stroke-width="2.000000"/>
+                    </svg>                    
+                </a>
+                
+            </div>
+        </section>
+    </header>
+    <body>
+        <section class="main-slider">
+            <div class="container main-slider__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide img1" >
+                        
+                        <h1 class="main-slider__h1">
+                            Проектные решения любой сложности
+                        </h1>
+                        
+                        <p class="main-slider__div-header-description">
+                            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов 
+                        </p>
+                        <a class="main-slider__div-header-btn btn " href="">
+                            Заказать расчет
+                        </a>
+                        
+                    </div>
+                    <div class="swiper-slide img2" >
+                        
+                        <h1 class="main-slider__h1">
+                            Проектные решения любой сложности
+                        </h1>
+                        
+                        <p class="main-slider__div-header-description">
+                            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов 
+                        </p>
+                        <a class="main-slider__div-header-btn btn " href="">
+                            Заказать расчет
+                        </a>
+                    </div>
+                    <div class="swiper-slide img3" >
+                        <h1 class="main-slider__h1">
+                            Проектные решения любой сложности
+                        </h1>
+                        
+                        <p class="main-slider__div-header-description">
+                            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов 
+                        </p>
+                        <a class="main-slider__div-header-btn btn " href="">
+                            Заказать расчет
+                        </a>
+                    </div>
+                  
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-about">
+            <div class="container section-about__container">
+                <h2>О нас</h2>
+                <p class="section-about__description default-text">
+                    Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+                </p>
+                <div class="section-about__blocks">
+                    <div class="section-about__main-img">
+                        <div class="section-about__main-description">
+                            <p class="section-about__main-description-text">
+                                Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов
+                            </p>
+                            <a class="btn section-about__main-description-btn" href="">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section-about__description-block section-about__description-block-1">
+                        <div class="section-about__description-block-img">
+                            <svg class="circle" width="120.000000" height="120.000000" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <circle id="Ellipse 5" cx="60.000000" cy="60.000000" r="60.000000" fill="#FF9900" fill-opacity="1.000000"/>
+                            </svg>
+                            <svg class="cube" width="119.000000" height="132.000000" viewBox="0 0 119 132" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs>
+                                    <clipPath id="clip406480_4613">
+                                        <rect id="package" width="119.000000" height="132.000000" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect id="package" width="119.000000" height="132.000000" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip406480_4613)">
+                                    <path id="Vector (Stroke)" d="M30.1304 15.4904C30.3994 15.0217 30.9961 14.861 31.4624 15.1311L88.5117 48.172C88.9785 48.4421 89.1387 49.0411 88.8696 49.5096C88.6006 49.9783 88.0039 50.139 87.5376 49.8689L30.4883 16.828C30.0215 16.5579 29.8613 15.9589 30.1304 15.4904Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector (Stroke)" d="M52.502 1.87488C54.6299 0.646606 57.0435 0 59.5 0C61.9565 0 64.3701 0.646606 66.498 1.87488C66.4985 1.87524 66.4995 1.87561 66.5 1.87598L112 27.8812C114.126 29.109 115.892 30.8745 117.121 33.0005C118.35 35.1265 118.998 37.5381 119 39.9938L119 92.0063C118.998 94.4619 118.35 96.8735 117.121 98.9995C115.892 101.125 114.126 102.891 112 104.119L111.996 104.121L66.5 130.124C66.4995 130.124 66.499 130.124 66.499 130.125C64.3711 131.353 61.957 132 59.5 132C57.043 132 54.6289 131.353 52.501 130.125C52.501 130.124 52.5005 130.124 52.5 130.124L7.00391 104.121L7 104.119C4.87402 102.891 3.10791 101.125 1.87939 98.9995C0.650391 96.8735 0.00244141 94.4619 0 92.0063L0 39.9938C0.00244141 37.5381 0.650391 35.1265 1.87939 33.0005C3.10791 30.8745 4.87402 29.109 7 27.8812L7.00391 27.879L52.5 1.87598C52.5005 1.87561 52.5015 1.87524 52.502 1.87488ZM59.5 2.00037C57.3936 2.00037 55.3242 2.55493 53.5 3.6084L53.4961 3.6106L8 29.6136C7.99951 29.614 7.99854 29.6145 7.99805 29.6149C6.17627 30.6672 4.66357 32.1799 3.61084 34.0016C2.55762 35.8236 2.00244 37.8906 2 39.9952L2 92.0048C2.00244 94.1094 2.55762 96.1764 3.61084 97.9984C4.66357 99.8199 6.17627 101.333 7.99756 102.385C7.99854 102.385 7.99902 102.386 8 102.386L53.5 128.392C55.3242 129.445 57.3936 130 59.5 130C61.6064 130 63.6758 129.445 65.5 128.392L65.5039 128.389L111 102.386C111.001 102.386 111.001 102.385 111.002 102.385C112.824 101.333 114.336 99.8199 115.389 97.9984C116.442 96.1763 116.998 94.109 117 92.0043L117 39.9957C116.998 37.891 116.442 35.8237 115.389 34.0016C114.336 32.1799 112.824 30.6672 111.002 29.6149C111.001 29.6145 111 29.614 111 29.6136L65.5039 3.6106L65.5 3.6084C63.6758 2.55493 61.6064 2.00037 59.5 2.00037Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector (Stroke)" d="M2.13281 33.4875C2.40576 33.0209 3.00977 32.8613 3.48145 33.1313L59 64.8959L114.519 33.1313C114.99 32.8613 115.594 33.0209 115.867 33.4875C116.14 33.9543 115.979 34.5516 115.507 34.8215L59.4941 66.8688C59.1885 67.0437 58.8115 67.0437 58.5059 66.8688L2.49316 34.8215C2.021 34.5516 1.85986 33.9543 2.13281 33.4875Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector (Stroke)" d="M59 65C59.5522 65 60 65.4376 60 65.9775L60 130.022C60 130.562 59.5522 131 59 131C58.4478 131 58 130.562 58 130.022L58 65.9775C58 65.4376 58.4478 65 59 65Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 class="section-about__description-block-h">
+                            Консультация с широким активом
+                            <p class="section-about__description-block-p default-text">
+                                А также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений
+                            </p>
+                        </h3>
+                        
+                    </div>
+                    <div class="section-about__description-block section-about__description-block-2">
+                        <div class="section-about__description-block-img">
+                            <svg class="circle" width="120.000000" height="120.000000" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <circle id="Ellipse 5" cx="60.000000" cy="60.000000" r="60.000000" fill="#FF9900" fill-opacity="1.000000"/>
+                            </svg>
+                            <svg class="gear-wheel" width="135.193359" height="135.193542" viewBox="0 0 135.193 135.194" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                        Created with Pixso.
+                                </desc>
+                                <defs/>
+                                <rect id="Frame 291" width="135.193542" height="135.193542" fill="#FFFFFF" fill-opacity="0"/>
+                                <path id="Vector (Stroke)" d="M67.0645 50.0322C57.6577 50.0322 50.0322 57.6578 50.0322 67.0645C50.0322 76.4711 57.6577 84.0967 67.0645 84.0967C76.4712 84.0967 84.0967 76.4711 84.0967 67.0645C84.0967 57.6578 76.4712 50.0322 67.0645 50.0322ZM47.9033 67.0645C47.9033 56.482 56.4819 47.9032 67.0645 47.9032C77.647 47.9032 86.2261 56.482 86.2261 67.0645C86.2261 77.647 77.647 86.2258 67.0645 86.2258C56.4819 86.2258 47.9033 77.647 47.9033 67.0645Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                <path id="Vector (Stroke)" d="M67.5967 2.13464C64.6719 2.13464 61.8667 3.29663 59.7983 5.36493C57.73 7.43329 56.5679 10.2385 56.5679 13.1636L56.5679 14.1918L56.5679 14.196C56.5591 16.3504 55.9209 18.4552 54.7314 20.2514C53.542 22.0476 51.853 23.4568 49.873 24.3055C49.7397 24.3624 49.5972 24.3918 49.4521 24.3918L49.1875 24.3918C47.2241 25.2098 45.0645 25.4442 42.9683 25.0641C40.7964 24.6703 38.7925 23.635 37.2144 22.0916L37.2061 22.0833L36.8433 21.7204C35.8188 20.6949 34.6021 19.881 33.2632 19.326C31.9243 18.771 30.4893 18.4853 29.04 18.4853C27.5903 18.4853 26.1553 18.771 24.8164 19.326C23.4775 19.881 22.2612 20.6945 21.2368 21.72L21.2363 21.7208C20.2104 22.7451 19.397 23.9615 18.8423 25.3004C18.2871 26.6392 18.0015 28.0744 18.0015 29.5238C18.0015 30.9731 18.2871 32.4083 18.8423 33.7472C19.397 35.0861 20.2104 36.3025 21.2363 37.3268L21.6079 37.6984C23.1514 39.2762 24.1865 41.2804 24.5801 43.4522C24.9722 45.613 24.7109 47.8412 23.8306 49.8524C23.063 51.9194 21.6948 53.7098 19.9009 54.9927C18.0981 56.2822 15.9487 56.9996 13.7329 57.0514L13.708 57.0517L13.1636 57.0517C10.2383 57.0517 7.43311 58.2136 5.36475 60.282C3.29639 62.3503 2.13477 65.1556 2.13477 68.0806C2.13477 71.0057 3.29639 73.8109 5.36475 75.8793C7.43311 77.9476 10.2383 79.1096 13.1636 79.1096L14.1958 79.1096C16.3506 79.1182 18.4551 79.7565 20.2515 80.946C22.0459 82.1346 23.4541 83.8215 24.3032 85.7994C25.1924 87.8173 25.4575 90.0553 25.064 92.2252C24.6704 94.397 23.6348 96.4011 22.0913 97.9789L22.0835 97.9874L21.7202 98.3502C20.6948 99.3745 19.8809 100.591 19.3262 101.93C18.771 103.269 18.4854 104.704 18.4854 106.154C18.4854 107.603 18.771 109.038 19.3262 110.377C19.8809 111.716 20.6943 112.932 21.7197 113.957L21.7207 113.957C22.7451 114.983 23.9614 115.796 25.3003 116.351C26.6392 116.906 28.0742 117.192 29.5239 117.192C30.9731 117.192 32.4082 116.906 33.7471 116.351C35.0859 115.796 36.3022 114.983 37.3267 113.957L37.6982 113.586C39.2764 112.042 41.2803 111.007 43.4521 110.613C45.6128 110.221 47.8413 110.483 49.8525 111.363C51.9194 112.13 53.71 113.499 54.9927 115.293C56.2822 117.096 56.9995 119.245 57.0513 121.461L57.0518 121.486L57.0518 122.03C57.0518 124.955 58.2139 127.76 60.2817 129.829C62.3501 131.897 65.1558 133.059 68.0806 133.059C71.0059 133.059 73.811 131.897 75.8794 129.829C77.9478 127.76 79.1094 124.955 79.1094 122.03L79.1094 121.002L79.1094 120.997C79.1182 118.843 79.7563 116.738 80.9463 114.942C82.1343 113.148 83.8213 111.74 85.7988 110.891C87.8169 110.001 90.0552 109.736 92.2251 110.129C94.397 110.523 96.4009 111.559 97.979 113.102L97.9873 113.11L98.3501 113.473C99.3745 114.499 100.591 115.312 101.93 115.868C103.269 116.423 104.704 116.708 106.154 116.708C107.603 116.708 109.038 116.423 110.377 115.868C111.716 115.312 112.932 114.499 113.957 113.474L113.958 113.473C114.983 112.448 115.796 111.232 116.352 109.893C116.906 108.554 117.192 107.119 117.192 105.67C117.192 104.22 116.906 102.785 116.352 101.446C115.796 100.107 114.983 98.8911 113.958 97.8668L113.586 97.4951C112.042 95.9173 111.007 93.9132 110.613 91.7413C110.22 89.5712 110.485 87.3331 111.375 85.315C112.223 83.3373 113.631 81.6506 115.426 80.4622C117.222 79.2727 119.327 78.6343 121.481 78.6257L121.486 78.6257L122.03 78.6257C124.955 78.6257 127.76 77.4637 129.829 75.3954C131.897 73.3271 133.059 70.5219 133.059 67.5968C133.059 64.6717 131.897 61.8665 129.829 59.7982C127.76 57.7298 124.955 56.5678 122.03 56.5678L121.002 56.5678L120.998 56.5678C118.843 56.5592 116.738 55.9209 114.942 54.7313C113.146 53.5418 111.737 51.853 110.888 49.8728C110.831 49.74 110.802 49.5969 110.802 49.4524L110.802 49.1876C109.984 47.2242 109.75 45.0645 110.129 42.9683C110.523 40.7965 111.559 38.7925 113.102 37.2146L113.11 37.2062L113.473 36.8433C114.499 35.819 115.312 34.6022 115.868 33.2634C116.422 31.9244 116.708 30.4893 116.708 29.0399C116.708 27.5906 116.422 26.1554 115.868 24.8165C115.312 23.4776 114.499 22.2612 113.474 21.2369L113.473 21.2361C112.448 20.2107 111.232 19.3972 109.893 18.8422C108.554 18.2872 107.119 18.0015 105.67 18.0015C104.22 18.0015 102.785 18.2872 101.446 18.8422C100.107 19.3972 98.8911 20.2107 97.8667 21.2361L97.4951 21.6077C95.9175 23.1512 93.9131 24.1865 91.7412 24.5803C89.5713 24.9738 87.3335 24.7087 85.3154 23.8194C83.3374 22.9705 81.6509 21.5622 80.4624 19.7676C79.2725 17.9714 78.6343 15.8665 78.6255 13.7122L78.6255 13.7079L78.6255 13.1636C78.6255 10.2385 77.4639 7.43329 75.3955 5.36493C73.3271 3.29663 70.522 2.13464 67.5967 2.13464ZM58.2886 3.85553C60.7573 1.3869 64.1055 0 67.5967 0C71.0879 0 74.436 1.3869 76.9048 3.85553C79.3735 6.32416 80.7603 9.67236 80.7603 13.1636L80.7603 13.7037C80.7603 13.7043 80.7603 13.705 80.7603 13.7056C80.7676 15.443 81.2827 17.1404 82.2422 18.5889C83.2017 20.038 84.564 21.1749 86.1616 21.8596L86.1724 21.8641C87.8013 22.5831 89.6084 22.7976 91.3604 22.4799C93.1108 22.1625 94.7261 21.3287 95.9985 20.0856C96 20.0844 96.001 20.083 96.0024 20.0817L96.3564 19.7275C97.5791 18.5038 99.0312 17.5326 100.629 16.8702C102.227 16.2078 103.94 15.8668 105.67 15.8668C107.4 15.8668 109.113 16.2078 110.71 16.8702C112.308 17.5325 113.76 18.5032 114.982 19.7267C116.206 20.9492 117.177 22.401 117.839 23.9991C118.502 25.5971 118.843 27.3101 118.843 29.0399C118.843 30.7698 118.502 32.4828 117.839 34.0808C117.177 35.6788 116.206 37.1306 114.982 38.3531L114.628 38.7073C114.626 38.7087 114.625 38.71 114.624 38.7114C113.381 39.9838 112.547 41.5989 112.23 43.3492C111.912 45.1013 112.126 46.9084 112.846 48.5376C112.905 48.6733 112.937 48.8201 112.937 48.9685L112.937 49.2268C113.628 50.7403 114.731 52.0312 116.121 52.9516C117.569 53.9109 119.267 54.4259 121.004 54.4332L122.03 54.4332C125.521 54.4332 128.869 55.8201 131.338 58.2887C133.807 60.7574 135.193 64.1056 135.193 67.5968C135.193 71.088 133.807 74.4362 131.338 76.9048C128.869 79.3735 125.521 80.7604 122.03 80.7604L121.49 80.7604C121.489 80.7604 121.489 80.7604 121.488 80.7604C119.75 80.7676 118.053 81.2827 116.604 82.2419C115.156 83.2017 114.019 84.5641 113.334 86.1616L113.33 86.1721C112.61 87.8013 112.396 89.6084 112.713 91.3605C113.031 93.1107 113.865 94.7258 115.107 95.998C115.109 95.9995 115.11 96.001 115.112 96.0024L115.466 96.3565C116.69 97.579 117.661 99.0311 118.323 100.629C118.986 102.227 119.327 103.94 119.327 105.67C119.327 107.4 118.986 109.113 118.323 110.711C117.661 112.308 116.69 113.76 115.466 114.983C114.244 116.206 112.792 117.177 111.194 117.839C109.597 118.502 107.883 118.843 106.154 118.843C104.424 118.843 102.711 118.502 101.113 117.839C99.5151 117.177 98.0635 116.206 96.8408 114.983L96.4863 114.628C96.4849 114.627 96.4834 114.625 96.4819 114.624C95.2095 113.381 93.5947 112.547 91.8442 112.23C90.0923 111.912 88.2852 112.127 86.6558 112.846L86.6455 112.85C85.0479 113.535 83.6855 114.672 82.7256 116.121C81.7666 117.569 81.2515 119.267 81.2441 121.004C81.2441 121.005 81.2441 121.005 81.2441 121.006L81.2441 122.03C81.2441 125.521 79.8574 128.869 77.3887 131.338C74.9199 133.807 71.5718 135.194 68.0806 135.194C64.5894 135.194 61.2412 133.807 58.7725 131.338C56.3037 128.869 54.917 125.521 54.917 122.03L54.917 121.498C54.873 119.715 54.2944 117.986 53.2563 116.534C52.2163 115.08 50.7622 113.972 49.084 113.355C49.0728 113.35 49.0615 113.346 49.0503 113.342C49.0405 113.338 49.0308 113.334 49.0215 113.329C47.3921 112.61 45.585 112.396 43.833 112.714C42.083 113.031 40.4678 113.865 39.1953 115.108C39.1938 115.109 39.1924 115.11 39.1909 115.112L38.8369 115.466C37.6143 116.69 36.1626 117.661 34.5645 118.323C32.9668 118.986 31.2539 119.327 29.5239 119.327C27.7939 119.327 26.0811 118.986 24.4829 118.323C22.8848 117.661 21.4331 116.69 20.2104 115.466C18.9868 114.244 18.0166 112.792 17.354 111.194C16.6919 109.596 16.3506 107.883 16.3506 106.154C16.3506 104.424 16.6919 102.711 17.354 101.113C18.0166 99.5149 18.9873 98.0632 20.2109 96.8408L20.5654 96.4863C20.5669 96.4849 20.5684 96.4836 20.5693 96.4822C21.8125 95.2098 22.6465 93.5946 22.9639 91.8444C23.2812 90.0922 23.0669 88.2851 22.3481 86.6559L22.3433 86.6455C21.6587 85.048 20.522 83.6855 19.0728 82.7258C17.624 81.7665 15.9268 81.2515 14.1895 81.2442C14.189 81.2442 14.188 81.2442 14.1875 81.2442L13.1636 81.2442C9.67236 81.2442 6.32422 79.8573 3.85547 77.3887C1.38672 74.92 0 71.5718 0 68.0806C0 64.5894 1.38672 61.2412 3.85547 58.7726C6.32422 56.3039 9.67236 54.9171 13.1636 54.9171L13.6953 54.9171C15.4785 54.8729 17.208 54.2944 18.6592 53.2565C20.1138 52.2162 21.2217 50.7623 21.8389 49.084C21.8467 49.0629 21.855 49.042 21.8643 49.0214C22.583 47.3923 22.7979 45.5852 22.48 43.833C22.1626 42.0828 21.3286 40.4675 20.0859 39.1952L19.7275 38.837C18.5034 37.6145 17.5327 36.1627 16.8701 34.5646C16.208 32.9666 15.8667 31.2537 15.8667 29.5238C15.8667 27.7939 16.208 26.0809 16.8701 24.4829C17.5327 22.8849 18.5034 21.4331 19.7275 20.2106C20.9497 18.9871 22.4014 18.0164 23.999 17.3541C25.5972 16.6917 27.3101 16.3507 29.04 16.3507C30.77 16.3507 32.4829 16.6917 34.0806 17.3541C35.6787 18.0165 37.1304 18.9872 38.3525 20.2109L38.7114 20.5696C39.9839 21.8126 41.5991 22.6464 43.3491 22.9637C45.1011 23.2815 46.9087 23.067 48.5376 22.348C48.6733 22.2881 48.8203 22.2571 48.9688 22.2571L49.2271 22.2571C50.7402 21.5652 52.0312 20.4626 52.9517 19.0728C53.9111 17.6242 54.4258 15.9269 54.4331 14.1895L54.4331 13.1636C54.4331 9.67236 55.8198 6.32416 58.2886 3.85553Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+                            </svg>
+                        </div>
+                        <h3 class="section-about__description-block-h">
+                            В своём стремлении повысить
+                            <p class="section-about__description-block-p default-text">
+                                Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества 
+                            </p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about__how-we-work">
+            <div class="container section-about__how-we-work-container">
+                <h2 class="section-about__how-we-work-h2">
+                    Как мы работаем
+                </h2>
+                <div class="section-about__how-we-work-choise default-text">
+                    <button class="section-about__how-we-work-btn" data-path="first">1 шаг</button>
+                    <button class="section-about__how-we-work-btn" data-path="second">2 шаг</button>
+                    <button class="section-about__how-we-work-btn" data-path="third">3 шаг</button>
+                    <button class="section-about__how-we-work-btn" data-path="fourth">4 шаг</button>
+                </div>
+                <div class="content-active section-about__how-we-work-main" data-target="first">
+                    <div class="section-about__how-we-work-side">
+                        <h3 class="section-about__how-we-work-h3">
+                            Проводим консультацию
+                        </h3>
+                        <p class="default-text section-about__how-we-work-p">
+                            Влечёт за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. 
+                            А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+                        </p>
+                        <div class="section-about__how-we-work-btns">
+                            <a class="section-about__how-we-work-or-btn btn" href="">Подробнее</a>
+                            <a class="section-about__how-we-work-wh-btn Bbtn" href="">Договор</a>
+                        </div>
+                    </div>
+                    <div class="section-about__how-we-work-wrapper">
+                        <img class="section-about__how-we-work-img" src="/IMG/Rectangle 18.png" alt="">
+                    </div>
+                    
+                </div>
+
+                <div class="section-about__how-we-work-main" data-target="second">
+                    <div class="section-about__how-we-work-side">
+                        <h3 class="section-about__how-we-work-h3">
+                            Составляем смету
+                        </h3>
+                        <p class="default-text section-about__how-we-work-p">
+                            Внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+                        </p>
+                        <div class="section-about__how-we-work-btns">
+                            <a class="section-about__how-we-work-or-btn btn" href="">Подробнее</a>
+                            <a class="section-about__how-we-work-wh-btn Bbtn" href="">Договор</a>
+                        </div>
+                    </div>
+                    <div class="section-about__how-we-work-wrapper">
+                        <img class="section-about__how-we-work-img" src="/IMG/Rectangle 19.png" alt="">
+                    </div>
+                </div>
+
+                <div class="section-about__how-we-work-main" data-target="third">
+                    <div class="section-about__how-we-work-side">
+                        <h3 class="section-about__how-we-work-h3">
+                            Привлекаем подрядчиков
+                        </h3>
+                        <p class="default-text section-about__how-we-work-p">
+                            Идейные соображения высшего порядка, а также новая модель организационной деятельности требует анализа прогресса профессионального сообщества. Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные задания по разработке прогресса профессионального сообщества.
+                        </p>
+                        <div class="section-about__how-we-work-btns">
+                            <a class="section-about__how-we-work-or-btn btn" href="">Подробнее</a>
+                            <a class="section-about__how-we-work-wh-btn Bbtn" href="">Договор</a>
+                        </div>
+                    </div>
+                    <div class="section-about__how-we-work-wrapper">
+                        <img class="section-about__how-we-work-img" src="/IMG/Rectangle 20.png" alt="">
+                    </div>
+                </div>
+
+                <div class="section-about__how-we-work-main" data-target="fourth">
+                    <div class="section-about__how-we-work-side">
+                        <h3 class="section-about__how-we-work-h3">
+                            Инспектируем все этапы работ
+                        </h3>
+                        <p class="default-text section-about__how-we-work-p">
+                            Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам, что новая модель организационной деятельности говорит 
+                            о возможностях системы массового участия. Принимая во внимание показатели успешности, постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет.
+                        </p>
+                        <div class="section-about__how-we-work-btns">
+                            <a class="section-about__how-we-work-or-btn btn" href="">Подробнее</a>
+                            <a class="section-about__how-we-work-wh-btn Bbtn" href="">Договор</a>
+                        </div>
+                    </div>
+                    <div class="section-about__how-we-work-wrapper">
+                        <img class="section-about__how-we-work-img" src="/IMG/Rectangle 21.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about__questions">
+            <div class="container section-about__questions-container">
+                <h2 class="section-about__questions-h2">Часто задаваемые вопросы</h2>
+                <div class="section-about__questions-content">
+                    <div class="section-about__questions-content-heading first">
+                        <h3 class="section-about__questions-h3">Из чего формируется конечная стоимость проекта?</h3> 
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section-about__questions-content-heading second">
+                        <h3 class="section-about__questions-h3">Из чего формируется конечная стоимость проекта?</h3>      
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="section-about__questions-content-heading third">
+                        <h3 class="section-about__questions-h3">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h3>   
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="section-about__questions-content-heading fours">
+                        <h3 class="section-about__questions-h3">Я выбираю между разными компаниями. В чём ваше отличие?</h3>      
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section-about__questions-content-heading fifth">
+                        <h3 class="section-about__questions-h3">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h3> 
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div >
+                    <div class="section-about__questions-content-heading fifth">
+                        <h3 class="section-about__questions-h3">Могу ли я вернуть деньги на каком-либо из этапов работ?</h3>                 
+                        <a class="section-about__questions-content-heading-img" href="">
+                            <img  src="/IMG/+х.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    
+    <footer>
+        <section class="section-footer">
+            <div class="section-footer__container">
+                <div class="section-footer__flex">
+                    <div class="section-footer__first-segment">
+                        <div class="section-footer__first-segment-logo"></div>
+                        <ul class="section-footer__ul">
+                            <li class="section-footer__list-item"> <a class="section-footer__list-item"  href=""> О нас</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Проекты</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Отзывы</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Договор оферты</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Договор подряда</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Конфиденциальность</a></li>
+                            <li class="section-footer__list-item"><a class="section-footer__list-item" href="">Партнёрское соглашение</a></li>
+                        </ul>
+                        <div class="section-footer__social-links">
+                            <a href=""><div class="svg facebook"></div></a>
+                            <a href=""><div class="svg vk"></div></a>
+                            <a href=""><div class="svg instagram"></div></a>
+                        </div>
+                    </div>
+                    <div class="section-footer__second-segment">
+                        <h3 class="section-footer__heading">Оставить заявку</h3>
+                        <form action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="post">
+                            <input id="fio" name="фио" required class="section-footer__form-item f" placeholder="Фамилия, имя и отчество*" type="text">
+                            <input id="main" name="почта" required class="section-footer__form-item s" placeholder="E-mail*" type="email">
+                            <textarea id="message" name="сообщение" required class="section-footer__form-item t" placeholder="Сообщение" id="" cols="30" rows="10"></textarea>
+                            <div class="section-footer__submit-div">
+                                <input class="section-footer__form-item submit " type="submit">
+                                <div class="section-footer__submit-div-check">
+                                    <input required id="agree " name="checkbox" class="check"  type="checkbox">
+                                    
+                                    <label class="check-label" for="checkbox">Согласен на обработку данных</label>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                    <div class="section-footer__third-segment">
+                        <p>Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', 
+    {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    }
+    });
+</script>
+</html>
